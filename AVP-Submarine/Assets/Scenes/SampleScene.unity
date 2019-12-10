@@ -2830,7 +2830,7 @@ MonoBehaviour:
   - m_aiGroupName: Fish
     m_prefab: {fileID: 1336688621205060, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
     m_maxAI: 30
-    m_spawnRate: 3
+    m_spawnRate: 20
     m_maxSpawnAmount: 10
     m_enableSpawner: 1
     m_randomizeStats: 1
@@ -3212,7 +3212,7 @@ MonoBehaviour:
   - m_aiGroupName: Fish
     m_prefab: {fileID: 1336688621205060, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
     m_maxAI: 30
-    m_spawnRate: 3
+    m_spawnRate: 20
     m_maxSpawnAmount: 10
     m_enableSpawner: 1
     m_randomizeStats: 1
@@ -4768,7 +4768,7 @@ MonoBehaviour:
   - m_aiGroupName: Fish
     m_prefab: {fileID: 1336688621205060, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
     m_maxAI: 30
-    m_spawnRate: 3
+    m_spawnRate: 20
     m_maxSpawnAmount: 10
     m_enableSpawner: 1
     m_randomizeStats: 1
@@ -6254,7 +6254,7 @@ MonoBehaviour:
   - m_aiGroupName: Fish
     m_prefab: {fileID: 1336688621205060, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
     m_maxAI: 30
-    m_spawnRate: 3
+    m_spawnRate: 20
     m_maxSpawnAmount: 10
     m_enableSpawner: 1
     m_randomizeStats: 1
@@ -8959,7 +8959,7 @@ MonoBehaviour:
   - m_aiGroupName: Fish
     m_prefab: {fileID: 1336688621205060, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
     m_maxAI: 30
-    m_spawnRate: 3
+    m_spawnRate: 20
     m_maxSpawnAmount: 10
     m_enableSpawner: 1
     m_randomizeStats: 1
@@ -9117,7 +9117,7 @@ MonoBehaviour:
   - m_aiGroupName: Fish
     m_prefab: {fileID: 1336688621205060, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
     m_maxAI: 30
-    m_spawnRate: 3
+    m_spawnRate: 20
     m_maxSpawnAmount: 10
     m_enableSpawner: 1
     m_randomizeStats: 1
@@ -9459,7 +9459,7 @@ MonoBehaviour:
   - m_aiGroupName: Fish
     m_prefab: {fileID: 1336688621205060, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
     m_maxAI: 30
-    m_spawnRate: 3
+    m_spawnRate: 20
     m_maxSpawnAmount: 10
     m_enableSpawner: 1
     m_randomizeStats: 1
@@ -10814,7 +10814,7 @@ MonoBehaviour:
   - m_aiGroupName: Fish
     m_prefab: {fileID: 1336688621205060, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
     m_maxAI: 30
-    m_spawnRate: 3
+    m_spawnRate: 20
     m_maxSpawnAmount: 10
     m_enableSpawner: 1
     m_randomizeStats: 1

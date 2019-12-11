@@ -2473,10 +2473,10 @@ Terrain:
   m_TerrainData: {fileID: 15600000, guid: 6ccf1e2926a06534da0514534777fc2e, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
+  m_TreeCrossFadeLength: 10
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
-  m_DetailObjectDensity: 1
+  m_DetailObjectDistance: 1000
+  m_DetailObjectDensity: 0.125
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
   m_HeightmapMaximumLOD: 0
@@ -2501,7 +2501,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 428921683}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -471.9, y: -98.93, z: -518}
+  m_LocalPosition: {x: -471.9, y: -98.93, z: -447.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2827,7 +2827,7 @@ MonoBehaviour:
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
   AIObject:
-  - m_aiGroupName: Fish
+  - m_aiGroupName: Fish3
     m_prefab: {fileID: 1336688621205060, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
     m_maxAI: 30
     m_spawnRate: 20
@@ -3657,7 +3657,7 @@ Light:
   serializedVersion: 9
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3714,7 +3714,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 251, y: 260, z: -434}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4765,7 +4765,7 @@ MonoBehaviour:
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
   AIObject:
-  - m_aiGroupName: Fish
+  - m_aiGroupName: Fish5
     m_prefab: {fileID: 1336688621205060, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
     m_maxAI: 30
     m_spawnRate: 20
@@ -6251,7 +6251,7 @@ MonoBehaviour:
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
   AIObject:
-  - m_aiGroupName: Fish
+  - m_aiGroupName: Fish2
     m_prefab: {fileID: 1336688621205060, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
     m_maxAI: 30
     m_spawnRate: 20
@@ -6880,7 +6880,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1274999770
 Light:
   m_ObjectHideFlags: 0
@@ -6888,7 +6888,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274999769}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 9
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8956,7 +8956,7 @@ MonoBehaviour:
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
   AIObject:
-  - m_aiGroupName: Fish
+  - m_aiGroupName: Fish6
     m_prefab: {fileID: 1336688621205060, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
     m_maxAI: 30
     m_spawnRate: 20
@@ -9114,7 +9114,7 @@ MonoBehaviour:
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
   AIObject:
-  - m_aiGroupName: Fish
+  - m_aiGroupName: Fish8
     m_prefab: {fileID: 1336688621205060, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
     m_maxAI: 30
     m_spawnRate: 20
@@ -9456,7 +9456,7 @@ MonoBehaviour:
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
   AIObject:
-  - m_aiGroupName: Fish
+  - m_aiGroupName: Fish7
     m_prefab: {fileID: 1336688621205060, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
     m_maxAI: 30
     m_spawnRate: 20
@@ -10811,7 +10811,7 @@ MonoBehaviour:
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
   AIObject:
-  - m_aiGroupName: Fish
+  - m_aiGroupName: Fish4
     m_prefab: {fileID: 1336688621205060, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
     m_maxAI: 30
     m_spawnRate: 20

@@ -135,7 +135,7 @@ public class AISpawner : MonoBehaviour
         {
             if(AIObject[i].randomizeStats)
             {
-                AIObject[i].setValues(Random.Range(1, 30), Random.Range(1, 20), Random.Range(1, 10));
+                AIObject[i].setValues(Random.Range(40, 60), Random.Range(15, 30), Random.Range(10, 20));
             }
         }
     }

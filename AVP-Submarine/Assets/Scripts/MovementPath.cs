@@ -13,8 +13,10 @@ public class MovementPath : MonoBehaviour
 
     public PathTypes PathType;
     public int movementDirection = 1;
-    public int movingTo = 0; 
+    public int movingTo = 0;
+    public int atPoint = 0;
     public Transform[] PathSequence;
+    public float[] SpeedBetweenPoints;
 
     void Update()
     {
@@ -40,6 +42,11 @@ public class MovementPath : MonoBehaviour
         {
             Gizmos.DrawLine(PathSequence[0].position, PathSequence[PathSequence.Length-1].position);
         }
+    }
+
+    public int GetPathPointNum()
+    {
+        return atPoint;
     }
 
     //GetNextPathPoint() returns the transform component of the next point in our path

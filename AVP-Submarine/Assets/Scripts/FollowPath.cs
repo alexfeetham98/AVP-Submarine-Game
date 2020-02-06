@@ -43,6 +43,8 @@ public class FollowPath : MonoBehaviour
      
     public void Update()
     {
+        Speed = MyPath.SpeedBetweenPoints[MyPath.GetPathPointNum()];
+
         //Validate there is a path with a point in it
         if (pointInPath == null || pointInPath.Current == null)
         {
@@ -67,6 +69,8 @@ public class FollowPath : MonoBehaviour
         var distanceSquared = (transform.position - pointInPath.Current.position).sqrMagnitude;
         if (distanceSquared < MaxDistanceToGoal * MaxDistanceToGoal) //If you are close enough
         {
+            MyPath.atPoint = MyPath.movingTo;
+
             pointInPath.MoveNext(); //Get next point in MovementPath
         }
     }

@@ -15,6 +15,8 @@ public class FollowPath : MonoBehaviour
     public float Speed = 1;
     public float MaxDistanceToGoal = .1f;
 
+    public Vector3 offset;
+
     private IEnumerator<Transform> pointInPath;
 
     public void Start()

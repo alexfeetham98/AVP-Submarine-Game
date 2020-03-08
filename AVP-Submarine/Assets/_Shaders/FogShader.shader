@@ -1,16 +1,16 @@
-﻿Shader "SubmarineGame/UnderWaterImageEffect"
+﻿Shader "SubmarineGame/FogShader"
 {
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-		_NoiseScale("Noise Scale", float) = 1
-		_NoiseFrequency("Noise Frequency", float) = 1
-		_NoiseSpeed("Noise Speed", float) = 1
-		_PixelOffset("Pixel Offset", float) = 0.005
-		_DepthStart("Depth Start" ,float) = 1
+		_FogColor ("Fog Color", Color) = (1,1,1,1)
+		_DepthStart ("Depth Start" ,float) =1
 		_DepthDistance("Depth Distance", float) = 1
+
+
 	}
-		SubShader
+	
+	SubShader
 	{
 		// No culling or depth
 		Cull Off ZWrite Off ZTest Always
@@ -22,14 +22,12 @@
 			#pragma fragment frag
 
 			#include "UnityCG.cginc"
-			#include "noiseSimplex.cginc"
-			#define M_PI 3.1415926535897932384626433832795
 
+
+			sampler2D _CameraDepthTexture;
+			fixed4 _FogColor;
 			float _DepthStart;
 			float _DepthDistance;
-			sampler2D _CameraDepthTexture;
-
-			uniform float _NoiseScale, _NoiseFrequency, _NoiseSpeed, _PixelOffset;
 
             struct appdata
             {
@@ -59,13 +57,10 @@
 			fixed4 frag(v2f i) : COLOR
 			{
 				float depthValue = Linear01Depth(tex2Dproj(_CameraDepthTexture, UNITY_PROJ_COORD(i.screenPos)).r) * _ProjectionParams.z;
-				depthValue = 1- saturate((depthValue - _DepthStart) / _DepthDistance);
-				float3 spos = float3(i.screenPos.x, i.screenPos.y, 0)* _NoiseFrequency;
-				spos.z += _Time.x * _NoiseSpeed;
-				float noise = _NoiseScale * ((snoise(spos) + 1) / 2);
-				float4 noiseToDirection = float4(cos(noise * M_PI * 2), sin(noise * M_PI * 2), 0, 0);
-				fixed4 col = tex2Dproj(_MainTex, i.screenPos + (normalize(noiseToDirection) * _PixelOffset * depthValue));
-                return col;
+				depthValue = saturate((depthValue - _DepthStart) / _DepthDistance);
+				fixed4 fogColor = _FogColor * depthValue;
+				fixed4 col = tex2Dproj(_MainTex, i.screenPos);
+                return lerp(col, fogColor, depthValue);
             }
             ENDCG
         }

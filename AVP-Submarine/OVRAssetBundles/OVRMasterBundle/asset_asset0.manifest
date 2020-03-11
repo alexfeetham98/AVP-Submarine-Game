@@ -1,0 +1,61 @@
+ManifestFileVersion: 0
+CRC: 4062330557
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cae8f921f8834928dbcae7b334456251
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 51146cc0df05ef4a538acaa5acfc9525
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 72
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: adb84e30e02715445aeb9959894e3b4d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30f4b897495c7ad40b2d47143e02aaba, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1cb7e9e120078f43bce4f0b1be547a7, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 156
+  Script: {instanceID: 0}
+- Class: 1953259897
+  Script: {instanceID: 0}
+Assets:
+- Assets/Terrain/Terrain_0_0_47452759-77fd-4427-ab1e-0af03703b67b.asset
+- Assets/Terrain/Terrain_0_0_51243528-5110-4307-a0a6-c5b366c16335.asset
+- Assets/Terrain/Terrain_0_0_178ec1da-ab39-4275-b7ee-0016dc785080.asset
+- Assets/Terrain/Terrain_0_0_2332c21d-c57a-4585-ac11-7309f1320811.asset
+- Assets/Terrain/Terrain_0_0_e551e6fa-8da0-43da-b87a-f0905d3a754f.asset
+- Assets/Terrain/Terrain_0_0_37ef75d7-d7d3-44d7-89c6-2d9a273d6f7e.asset
+- Assets/Terrain/Terrain_0_0_82916b94-e125-4e37-be7c-8e0d36927c19.asset
+- Assets/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset
+- Assets/Terrain/New Terrain.asset
+- Assets/Terrain/Terrain_0_0_6fa3701a-1cb8-4ab0-a46a-e3ed3f6c75c4.asset
+- Assets/Terrain/Terrain_0_0_3c6229df-1d74-4fc1-b9ee-a66bdbd5d005.asset
+- Packages/com.unity.postprocessing/PostProcessing/PostProcessResources.asset
+- Assets/Terrain/Terrain_0_0_2f0a6305-1cbb-4637-9078-d0d534bbdeea.asset
+- Assets/Terrain/Terrain_0_0_a3ab8340-ffc6-4a12-b766-ab190f5118ba.asset
+- Assets/PP_Profile.asset
+- Assets/Terrain/Terrain_0_0_9512ebf6-00ac-4a67-a757-99890e3fb780.asset
+Dependencies:
+- I:/_yr3/AVP/AVP-Submarine-Game/AVP-Submarine/OVRAssetBundles/OVRMasterBundle/asset_png0
+- I:/_yr3/AVP/AVP-Submarine-Game/AVP-Submarine/OVRAssetBundles/OVRMasterBundle/asset_png1
+- I:/_yr3/AVP/AVP-Submarine-Game/AVP-Submarine/OVRAssetBundles/OVRMasterBundle/asset_png2
+- I:/_yr3/AVP/AVP-Submarine-Game/AVP-Submarine/OVRAssetBundles/OVRMasterBundle/asset_shader0
+- I:/_yr3/AVP/AVP-Submarine-Game/AVP-Submarine/OVRAssetBundles/OVRMasterBundle/asset_compute0
+- I:/_yr3/AVP/AVP-Submarine-Game/AVP-Submarine/OVRAssetBundles/OVRMasterBundle/asset_prefab0
+- I:/_yr3/AVP/AVP-Submarine-Game/AVP-Submarine/OVRAssetBundles/OVRMasterBundle/asset_tga0
+- I:/_yr3/AVP/AVP-Submarine-Game/AVP-Submarine/OVRAssetBundles/OVRMasterBundle/asset_terrainlayer0

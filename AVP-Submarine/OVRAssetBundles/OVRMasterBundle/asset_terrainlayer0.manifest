@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2231605519
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4b2822f30dcbd7e77d199703c1a936d6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f106dac3fdc2900390d84e482ab7f8f1
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 1953259897
+  Script: {instanceID: 0}
+Assets:
+- Assets/Materials/Images/Dirt.terrainlayer
+- Assets/Materials/Images/Rock.terrainlayer
+- Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer
+- Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/rock.terrainlayer
+Dependencies:
+- I:/_yr3/AVP/AVP-Submarine-Game/AVP-Submarine/OVRAssetBundles/OVRMasterBundle/asset_tga0
+- I:/_yr3/AVP/AVP-Submarine-Game/AVP-Submarine/OVRAssetBundles/OVRMasterBundle/asset_tif0

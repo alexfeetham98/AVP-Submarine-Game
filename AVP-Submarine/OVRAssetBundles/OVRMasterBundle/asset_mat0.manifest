@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 779570980
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 952b772b2eda2f99e14dda46f54929aa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2164263bd948184a9373784f776f453a
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Materials/Glass.mat
+- Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Materials/Simplistic_Nature_Material.mat
+- Assets/Materials/Water.mat
+- Assets/Oculus/SampleFramework/Core/CustomHands/Materials/Hands_solid.mat
+- Assets/Materials/Pink.mat
+- Assets/Materials/Blue.mat
+- Assets/Materials/Ground.mat
+- Assets/Materials/VFX/Noise_PostPros.mat
+- Assets/Materials/FogMat.mat
+- Assets/Materials/GlassDarker.mat
+Dependencies:
+- I:/_yr3/AVP/AVP-Submarine-Game/AVP-Submarine/OVRAssetBundles/OVRMasterBundle/asset_png1
+- I:/_yr3/AVP/AVP-Submarine-Game/AVP-Submarine/OVRAssetBundles/OVRMasterBundle/asset_shader0

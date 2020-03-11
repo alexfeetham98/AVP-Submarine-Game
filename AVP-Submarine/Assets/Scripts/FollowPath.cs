@@ -70,7 +70,10 @@ public class FollowPath : MonoBehaviour
 
         //Check to see if you are close enough to the next point to start moving to the following one
         var distanceSquared = (transform.position - pointInPath.Current.position + offset).sqrMagnitude;
-        if (distanceSquared < MaxDistanceToGoal * MaxDistanceToGoal) //If you are close enough
+
+        float offsetDistance = offset.sqrMagnitude;
+
+        if (distanceSquared < MaxDistanceToGoal + offsetDistance * MaxDistanceToGoal + offsetDistance) //If you are close enough
         {
             MyPath.atPoint = MyPath.movingTo;
 

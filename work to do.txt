@@ -1,0 +1,19 @@
+sound
+Fish
+finished sub
+More assets (rocks, plants, Fish, Whale, boat etc)
+lighting
+interactions (sonar power lighting)
+particle effects
+U.I (information panel)
+List of imfo objects(Requires research)
+fade in fade out (Chris)
+A* needs reworking 
+post processing event manager (courtney)
+remove unwated data
+
+
+
+Stretch goal:
+Height map
+Sound for dialogue

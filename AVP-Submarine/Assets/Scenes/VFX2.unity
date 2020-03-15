@@ -2939,6 +2939,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1003329962715362708, guid: 7eaf12babd4653e40aeb3808b59b641f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1078547314450181408, guid: 7eaf12babd4653e40aeb3808b59b641f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5952,7 +5957,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11414578, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: renderQueue
-      value: -10
+      value: 4000
       objectReference: {fileID: 0}
     - target: {fileID: 11414578, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: fadeTime

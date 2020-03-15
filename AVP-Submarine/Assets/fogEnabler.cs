@@ -20,7 +20,7 @@ public class fogEnabler : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            fogEffect.enabled = true;
+            //fogEffect.enabled = true;
         }
     }
     private void OnTriggerExit(Collider other)

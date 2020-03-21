@@ -28,6 +28,6 @@ Material:
     - _DepthStart: 93.5
     - _NoiseFrequency: 0.61
     - _NoiseScale: 0.78
-    - _NoiseSpeed: 1.1
+    - _NoiseSpeed: 1.3
     - _PixelOffset: 0.0028
     m_Colors: []

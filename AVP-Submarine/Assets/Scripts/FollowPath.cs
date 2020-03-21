@@ -15,6 +15,9 @@ public class FollowPath : MonoBehaviour
     public float Speed = 1;
     public float MaxDistanceToGoal = .1f;
 
+    public Vector3 offset;
+    public float offsetMax = 1.0f;
+
     private IEnumerator<Transform> pointInPath;
 
     public void Start()
@@ -55,19 +58,22 @@ public class FollowPath : MonoBehaviour
         {
             transform.position =
                 Vector3.MoveTowards(transform.position,
-                                    pointInPath.Current.position,
+                                    pointInPath.Current.position + offset,
                                     Time.deltaTime * Speed);
         }
         else if (Type == MovementType.LerpTowards) 
         {
             transform.position = Vector3.Lerp(transform.position,
-                                                pointInPath.Current.position,
+                                                pointInPath.Current.position + offset,
                                                 Time.deltaTime * Speed);
         }
 
         //Check to see if you are close enough to the next point to start moving to the following one
-        var distanceSquared = (transform.position - pointInPath.Current.position).sqrMagnitude;
-        if (distanceSquared < MaxDistanceToGoal * MaxDistanceToGoal) //If you are close enough
+        var distanceSquared = (transform.position - pointInPath.Current.position + offset).sqrMagnitude;
+
+        float offsetDistance = offset.sqrMagnitude;
+
+        if (distanceSquared < MaxDistanceToGoal + offsetDistance * MaxDistanceToGoal + offsetDistance) //If you are close enough
         {
             MyPath.atPoint = MyPath.movingTo;
 

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 696983579
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5ac1fb1f869b65f963302849b846d0f2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fdf6c57a251b9f6ec27bdd2fe01b033c
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/SampleFramework/Core/CustomHands/Models/RightHandAnimator.controller
+- Assets/Oculus/SampleFramework/Core/CustomHands/Models/LeftHandAnimator.controller
+- Assets/Animation/TransitionScreen.controller
+Dependencies:
+- I:/_yr3/AVP/AVP-Submarine-Game/AVP-Submarine/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- I:/_yr3/AVP/AVP-Submarine-Game/AVP-Submarine/OVRAssetBundles/OVRMasterBundle/asset_anim0

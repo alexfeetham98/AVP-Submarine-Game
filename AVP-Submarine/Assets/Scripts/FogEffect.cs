@@ -13,7 +13,7 @@ public class FogEffect : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Camera>().depthTextureMode = DepthTextureMode.Depth;
+        //GetComponent<Camera>().depthTextureMode = DepthTextureMode.Depth;
         
     }
 

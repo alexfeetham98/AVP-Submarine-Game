@@ -12,6 +12,7 @@ public class AIObjects
     public int spawnAmount { get { return m_maxSpawnAmount; } }
     public bool randomizeStats { get { return m_randomizeStats; } }
     public bool enableSpawner { get { return m_enableSpawner;  } }
+    public float maxLocalScale { get { return m_localScale; } }
 
 
     [Header("AI Group Stats")]
@@ -28,6 +29,9 @@ public class AIObjects
     [SerializeField]
     [Range(0f, 20f)]
     private int m_maxSpawnAmount;
+    [SerializeField]
+    [Range(-2f, 10f)]
+    private float m_localScale;
 
     [Header("Main Settings")]
     [SerializeField]
@@ -102,6 +106,7 @@ public class AISpawner : MonoBehaviour
                         tempSpawn = Instantiate(AIObject[i].objectPrefab, RandomPosition(), randomRotation);
 
                         tempSpawn.transform.parent = tempGroup.transform;
+                        tempSpawn.transform.localScale = new Vector3(AIObject[i].maxLocalScale, AIObject[i].maxLocalScale, AIObject[i].maxLocalScale);
                         tempSpawn.AddComponent<AIMove>();
                     }
                 }
@@ -135,7 +140,7 @@ public class AISpawner : MonoBehaviour
         {
             if(AIObject[i].randomizeStats)
             {
-                AIObject[i].setValues(Random.Range(40, 60), Random.Range(15, 30), Random.Range(10, 20));
+                AIObject[i].setValues(Random.Range(1, 3), Random.Range(2, 5), Random.Range(1, 2));
             }
         }
     }

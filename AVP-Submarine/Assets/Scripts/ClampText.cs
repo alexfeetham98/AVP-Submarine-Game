@@ -9,8 +9,11 @@ public class ClampText : MonoBehaviour
 
     void Update()
     {
-        Vector3 boxPos = Camera.main.WorldToScreenPoint(this.transform.position);
-        infoBox.transform.position = boxPos;
-        
+        //Vector3 boxPos = Camera.main.WorldToViewportPoint(this.transform.position);// .worldToCameraMatrix(this.transform.position);// .main.WorldToScreenPoint(this.transform.position);
+        //Vector3 boxPos = Camera.main.WorldToScreenPoint(this.transform.position); //og
+        //Vector3 boxPos = Camera.main.w
+
+        //infoBox.transform.position = boxPos; //og
+
     }
 }

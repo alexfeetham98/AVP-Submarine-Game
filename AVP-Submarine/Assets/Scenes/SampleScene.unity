@@ -1912,10 +1912,6 @@ MonoBehaviour:
   - {fileID: 2067744274}
   - {fileID: 577744720}
   - {fileID: 201562222}
-  - {fileID: 340333671}
-  - {fileID: 2037765244}
-  - {fileID: 646936970}
-  - {fileID: 812315739}
   m_SpawnTimer: 5
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
@@ -5083,10 +5079,6 @@ MonoBehaviour:
   - {fileID: 690180359}
   - {fileID: 848975190}
   - {fileID: 1234699978}
-  - {fileID: 154532824}
-  - {fileID: 1567346043}
-  - {fileID: 2002816081}
-  - {fileID: 172218293}
   m_SpawnTimer: 5
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
@@ -5580,10 +5572,6 @@ MonoBehaviour:
   - {fileID: 926757817}
   - {fileID: 556478402}
   - {fileID: 2137163023}
-  - {fileID: 1431753280}
-  - {fileID: 1604803465}
-  - {fileID: 1514240545}
-  - {fileID: 408466289}
   m_SpawnTimer: 5
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
@@ -8614,10 +8602,6 @@ MonoBehaviour:
   - {fileID: 1675574584}
   - {fileID: 1697748801}
   - {fileID: 196028929}
-  - {fileID: 838431639}
-  - {fileID: 1268794376}
-  - {fileID: 1457502095}
-  - {fileID: 655450614}
   m_SpawnTimer: 5
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
@@ -11246,10 +11230,6 @@ MonoBehaviour:
   - {fileID: 199940973}
   - {fileID: 1074498862}
   - {fileID: 79203164}
-  - {fileID: 159175973}
-  - {fileID: 1137007879}
-  - {fileID: 2087188121}
-  - {fileID: 1750765073}
   m_SpawnTimer: 5
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
@@ -15107,10 +15087,6 @@ MonoBehaviour:
   - {fileID: 1291142605}
   - {fileID: 338553631}
   - {fileID: 1008969381}
-  - {fileID: 1292265297}
-  - {fileID: 1597683533}
-  - {fileID: 1185098310}
-  - {fileID: 2109064257}
   m_SpawnTimer: 5
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
@@ -15120,7 +15096,7 @@ MonoBehaviour:
       type: 3}
     m_maxAI: 3
     m_spawnRate: 100
-    m_maxSpawnAmount: 2
+    m_maxSpawnAmount: 5
     m_localScale: 0.05
     m_enableSpawner: 1
     m_randomizeStats: 0
@@ -15322,10 +15298,6 @@ MonoBehaviour:
   - {fileID: 1747884094}
   - {fileID: 283528563}
   - {fileID: 1656498728}
-  - {fileID: 1136294287}
-  - {fileID: 815495753}
-  - {fileID: 599585218}
-  - {fileID: 525871420}
   m_SpawnTimer: 5
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
@@ -15970,10 +15942,6 @@ MonoBehaviour:
   - {fileID: 1221138219}
   - {fileID: 142849055}
   - {fileID: 342175490}
-  - {fileID: 1052822835}
-  - {fileID: 179707491}
-  - {fileID: 1998371830}
-  - {fileID: 1527735237}
   m_SpawnTimer: 5
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
@@ -16561,10 +16529,6 @@ MonoBehaviour:
   - {fileID: 278793321}
   - {fileID: 1110575814}
   - {fileID: 1288498428}
-  - {fileID: 1707630971}
-  - {fileID: 357430849}
-  - {fileID: 2067252082}
-  - {fileID: 1534408595}
   m_SpawnTimer: 5
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
@@ -16906,10 +16870,6 @@ MonoBehaviour:
   - {fileID: 1972950997}
   - {fileID: 324633740}
   - {fileID: 133708179}
-  - {fileID: 809993513}
-  - {fileID: 829217706}
-  - {fileID: 127873423}
-  - {fileID: 1008274594}
   m_SpawnTimer: 5
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
@@ -18973,10 +18933,6 @@ MonoBehaviour:
   - {fileID: 1842975797}
   - {fileID: 1950968492}
   - {fileID: 864719806}
-  - {fileID: 1467877423}
-  - {fileID: 1052264707}
-  - {fileID: 97765499}
-  - {fileID: 2127030876}
   m_SpawnTimer: 5
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}
@@ -19041,10 +18997,6 @@ MonoBehaviour:
   - {fileID: 45135446}
   - {fileID: 1176240777}
   - {fileID: 1839698034}
-  - {fileID: 936859844}
-  - {fileID: 1200222989}
-  - {fileID: 1038320738}
-  - {fileID: 1952160681}
   m_SpawnTimer: 5
   m_SpawnColor: {r: 1, g: 0, b: 0, a: 0.3}
   m_SpawnArea: {x: 20, y: 10, z: 20}

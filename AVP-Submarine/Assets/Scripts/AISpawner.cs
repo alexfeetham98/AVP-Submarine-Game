@@ -129,7 +129,7 @@ public class AISpawner : MonoBehaviour
 
     public Vector3 RandomWaypoint()
     {
-        int randomWP = Random.Range(0, (10 - 1));
+        int randomWP = Random.Range(0, (Waypoints.Count - 1));
         Vector3 randomWaypoint = Waypoints[randomWP].transform.position;
         return randomWaypoint;
     }

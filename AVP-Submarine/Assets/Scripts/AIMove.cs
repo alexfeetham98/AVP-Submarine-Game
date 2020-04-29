@@ -6,12 +6,12 @@ public class AIMove : MonoBehaviour
 {
     private AISpawner m_AIManager;
 
-    private bool m_hasTarget = false;
+    public bool m_hasTarget = false;
     private bool m_isTurning;
 
 
-    private Vector3 m_wayPoint;
-    private Vector3 m_lastWaypoint = new Vector3(0f, 0f, 0f);
+    public Vector3 m_wayPoint;
+    public Vector3 m_lastWaypoint = new Vector3(0f, 0f, 0f);
 
     private Animator m_animator;
     private float m_speed;
@@ -45,10 +45,16 @@ public class AIMove : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, m_wayPoint, m_speed * Time.deltaTime);
         }
 
+        if (Vector3.Distance(transform.position, m_wayPoint) <= 0.25f)
+        {
+            m_hasTarget = false;
+        }
+        /*
         if (transform.position == m_wayPoint)
         {
             m_hasTarget = false;
         }
+        */
     }
 
     bool CanFindTarget(float start = 2f, float end = 3f)

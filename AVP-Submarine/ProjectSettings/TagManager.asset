@@ -9,6 +9,7 @@ TagManager:
   - fade
   - LeftHand
   - RightHand
+  - postprocessor
   layers:
   - Default
   - TransparentFX

@@ -1313,11 +1313,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Common name: Silvertip shark\r\nScientific name:\r Carcharhinus albimarginatus\r\n\nSize:\r
-    Up to 3m\r\nLifespan:\r 22 years (Estimate)\r\nDepths found at:\r 600 -\x13 800m
-    \r\nConservation status:\r Vulnerable\r\n\nInteresting fact:\nThe structure of
-    their eyes allow them to see up to 10 times more accurately than humans can in
-    clear water. "
+  m_Text: "Hydrothermal vent\nThermal vents are the result of seawater being heated
+    by magma which remerges from underwater volcanoes to form geysers, the temperatures
+    of which can reach over 90 degrees Celsius. \n\nThe fluid that precipitates from
+    these vents is mineral rich and provides the perfect source of energy to bacteria
+    that live in these areas. \n\nThese vents provide the perfect habitat for a range
+    of species and organisms that can thrive due to the abundance of food available
+    to them."
 --- !u!222 &136148705
 CanvasRenderer:
   m_ObjectHideFlags: 0

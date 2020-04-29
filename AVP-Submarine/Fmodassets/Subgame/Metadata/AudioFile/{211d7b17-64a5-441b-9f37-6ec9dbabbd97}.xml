@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{211d7b17-64a5-441b-9f37-6ec9dbabbd97}">
+        <property name="assetPath">
+            <value>sub motor.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>35.188249999999996</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{794c72f3-3cb1-4205-83d8-d250787d5519}</destination>
+        </relationship>
+    </object>
+</objects>

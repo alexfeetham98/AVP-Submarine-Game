@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7859,14 +7859,16 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Name: Killer Whale\nScientific name:\r\nDescription:\r\nSize:\r\nLifespan:\r\nDepths
-    found at:\r\nConservation status:\r\nFacts:"
+  m_Text: "Common name: Killer Whale / Orca\nScientific name:\r Orcinus orca\n\nSize:
+    \r7 - 9m\nLifespan: \r50 \u2013 80 years\nDepths found at:\r 30 \u2013 150m \nConservation
+    status: \rData deficient\n\nInteresting fact:\nThey are extremely fast swimmers,
+    travelling at speeds of up to 54kph! "
 --- !u!222 &882411255
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8372,14 +8374,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Name: Ramp fish (It's what the model is called)\nScientific name:\r\nDescription:\r\nSize:\r\nLifespan:\r\nDepths
-    found at:\r\nConservation status:\r\nFacts:"
+  m_Text: "Common name: Giant Manta Ray \r\nScientific name:\r Manta birostris\r\n\nSize:\r
+    Up to 9m\r\nLifespan:\r 50 years\r\nDepths found at:\r 10 -\x13 450m\r\nConservation
+    status:\r Vulnerable\r\n\nInteresting fact:\nThey have the largest brain size
+    of any cold-blooded fish, it is also believed that they have the ability to recognise
+    themselves in the mirror."
 --- !u!222 &915779123
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9393,8 +9398,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Name: Turtle or Turtoise? idk\nScientific name:\r\nDescription:\r\nSize:\r\nLifespan:\r\nDepths
-    found at:\r\nConservation status:\r\nFacts:"
+  m_Text: "Common name: Green Turtle\nScientific name:\r \rChelonia mydas\r\n\nSize:\r
+    Up to 1.5 m\nLifespan:\r 80+ years\nDepths found at:\r Up to 200m\nConservation
+    status:\r Endangered\n\nInteresting fact:\nFemale turtles return to the beach\nwhere
+    they were born to lay eggs, \nwith some swimming more than\n1500 miles to reach
+    these areas."
 --- !u!222 &1009194115
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9487,14 +9495,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Name: Dolphin\nScientific name:\r\nDescription:\r\nSize:\r\nLifespan:\r\nDepths
-    found at:\r\nConservation status:\r\nFacts:"
+  m_Text: "Common name: Common Bottlenose Dolphin \r\nScientific name:\r Tursiops
+    truncatus\r\n\nSize:\r 3 - 4m\r\r\nLifespan:\r 45 - 50 years\r\nDepths found at:\r
+    3 - 46m\r\nConservation status:\r Least concern\n\nInteresting facts:\nThere are
+    over 1000 bottlenose dolphins in captivity.\nThey can breach up to 16 feet above
+    the surface of the water."
 --- !u!222 &1035777085
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12764,14 +12775,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Name: Hammerhead Shark\nScientific name:\r\nDescription:\r\nSize:\r\nLifespan:\r\nDepths
-    found at:\r\nConservation status:\r\nFacts:"
+  m_Text: "Common name: Scalloped Hammerhead Shark  \r\nScientific name:\r Sphyrna
+    lewini\r\n\nSize:\r Up to 4m\nLifespan:\r 15 - 30 years\nDepths found at:\r Up
+    to 280m\nConservation status:\r Critically endangered\n\nInteresting fact:\nThey
+    have special sensory cells in their heads that are used to detect other fish via
+    the electrical fields they emit, this is useful for hunting prey."
 --- !u!222 &1369731459
 CanvasRenderer:
   m_ObjectHideFlags: 0

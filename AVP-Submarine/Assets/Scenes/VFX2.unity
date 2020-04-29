@@ -5897,14 +5897,18 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Name: Whale\nScientific name:\r\nDescription:\r\nSize:\r\nLifespan:\r\nDepths
-    found at:\r\nConservation status:\r\nFacts:"
+  m_Text: "Common name: Sperm Whale \r\nScientific name:\r Physeter macrocephalus\n\nSize:\r
+    Up to 16m\r\nLifespan:\r 60 years\r\nDepths found at:\r 600 -\x13 3000m\r\nConservation
+    status:\r Vulnerable to extinction\r\n\nInteresting facts:\nThey can dive to depths
+    of 3000m in and can remain there for up 2 hours at a time.\nThey have the largest
+    brain and the most powerful sonar of any animal on the planet, the organ that
+    powers this is called a melon."
 --- !u!222 &741779286
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8126,14 +8130,16 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Name: Shark 2\nScientific name:\r\nDescription:\r\nSize:\r\nLifespan:\r\nDepths
-    found at:\r\nConservation status:\r\nFacts:"
+  m_Text: "Common name: Smalltooth Sand Tiger \r\nScientific name:\r Odontaspis ferox\r\n\nSize:\r
+    Up to 4.1m\r\nLifespan:\r Unknown\r\nDepths found at:\r 10 - 900m\r\r\nConservation
+    status:\r Vulnerable\n\nInteresting fact:\nThey have a very large, oily liver,
+    which helps it to maintain neutral buoyancy in the water with minimal effort."
 --- !u!222 &1077192940
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8434,14 +8440,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Name: AnglerFish\nScientific name:\r\nDescription:\r\nSize:\r\nLifespan:\r\nDepths
-    found at:\r\nConservation status:\r\nFacts:"
+  m_Text: "Common name: Humpback Anglerfish \nScientific name:\r Melanocetus johnsonii\r\n\nSize:\r
+    3 \u2013 18cm\nLifespan:\r 20+ years\nDepths found at:\r 1000 \u2013 4000m\nConservation
+    status:\r Least concern\n\nInteresting facts:\nThere are over 200 families of
+    anglerfish including; frogfish, monkfish, seatoads, batfish & seadevils.\r\nTheir
+    luminosity comes from bacteria that live inside their lure.\r"
 --- !u!222 &1168511542
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10487,14 +10496,18 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Name: Hammerhead Shark\nScientific name:\r\nDescription:\r\nSize:\r\nLifespan:\r\nDepths
-    found at:\r\nConservation status:\r\nFacts:"
+  m_Text: "Common name: Bluntnose Six Gill shark / Cow shark \r\nScientific name:\r
+    Hexanchus griseus\r\n\nSize:\r Up to 8m\r\nLifespan:\r 80 years\r\nDepths found
+    at:\r 180 - 2500m\r\nConservation status:\r Near threatened\r\n\nInteresting facts:\nThey
+    can dive over 1300m below the surface of the ocean.\nThey are believed to be descendants
+    of sharks that date back more than 250 million years, 20 million years before
+    dinosaurs existed."
 --- !u!222 &1450717920
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11982,14 +11995,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Name: Shark 3\nScientific name:\r\nDescription:\r\nSize:\r\nLifespan:\r\nDepths
-    found at:\r\nConservation status:\r\nFacts:"
+  m_Text: "Common name: Silvertip shark\r\nScientific name:\r Carcharhinus albimarginatus\r\n\nSize:\r
+    Up to 3m\r\nLifespan:\r 22 years (Estimate)\r\nDepths found at:\r 600 -\x13 800m
+    \r\nConservation status:\r Vulnerable\r\n\nInteresting fact:\nThe structure of
+    their eyes allow them to see up to 10 times more accurately than humans can in
+    clear water. "
 --- !u!222 &1748668711
 CanvasRenderer:
   m_ObjectHideFlags: 0

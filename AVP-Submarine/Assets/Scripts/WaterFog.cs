@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class WaterFog : MonoBehaviour
 {
-    float waterLevel;
-    private bool isUnderWater = true;
+    public float waterLevel;
+    public bool isUnderWater = false;
     private Color normalColor;
     private Color underwaterColor;
 
@@ -20,16 +20,20 @@ public class WaterFog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (transform.position.y < waterLevel)
+        {
+            isUnderWater = true;
+            RenderSettings.fog = true;
+            RenderSettings.fogColor = underwaterColor;
+            RenderSettings.fogDensity = 0.8f;
+        }
         if (isUnderWater)
         {
-            SetUnderWater();
+            RenderSettings.fog = true;
+            RenderSettings.fogColor = underwaterColor;
+            RenderSettings.fogDensity = 0.8f;
         }
-        
-    }
 
-    void SetUnderWater()
-    {
-        RenderSettings.fogColor = underwaterColor;
-        RenderSettings.fogDensity = 0.8f;
     }
 }
+  

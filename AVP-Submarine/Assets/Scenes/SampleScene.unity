@@ -15,8 +15,8 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0, g: 0.44529822, b: 0.8867924, a: 1}
-  m_FogMode: 1
+  m_FogColor: {r: 0.04160734, g: 0.42511097, b: 0.8018868, a: 1}
+  m_FogMode: 2
   m_FogDensity: 0.01
   m_LinearFogStart: 50
   m_LinearFogEnd: 300
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -863,11 +863,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1203819983}
     m_Modifications:
-    - target: {fileID: 7086984156991804929, guid: f9f4cb70647a8474998b99428f938536,
-        type: 3}
-      propertyPath: m_Name
-      value: PlaceHolderText
-      objectReference: {fileID: 0}
     - target: {fileID: 7086984156991804990, guid: f9f4cb70647a8474998b99428f938536,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -922,6 +917,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7086984156991804929, guid: f9f4cb70647a8474998b99428f938536,
+        type: 3}
+      propertyPath: m_Name
+      value: PlaceHolderText
       objectReference: {fileID: 0}
     - target: {fileID: 7086984156991804991, guid: f9f4cb70647a8474998b99428f938536,
         type: 3}
@@ -1507,11 +1507,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 560762510}
     m_Modifications:
-    - target: {fileID: 7086984156991804929, guid: f9f4cb70647a8474998b99428f938536,
-        type: 3}
-      propertyPath: m_Name
-      value: PlaceHolderText
-      objectReference: {fileID: 0}
     - target: {fileID: 7086984156991804990, guid: f9f4cb70647a8474998b99428f938536,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1566,6 +1561,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7086984156991804929, guid: f9f4cb70647a8474998b99428f938536,
+        type: 3}
+      propertyPath: m_Name
+      value: PlaceHolderText
       objectReference: {fileID: 0}
     - target: {fileID: 7086984156991804991, guid: f9f4cb70647a8474998b99428f938536,
         type: 3}
@@ -2645,11 +2645,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1828979118}
     m_Modifications:
-    - target: {fileID: 7086984156991804929, guid: f9f4cb70647a8474998b99428f938536,
-        type: 3}
-      propertyPath: m_Name
-      value: PlaceHolderText
-      objectReference: {fileID: 0}
     - target: {fileID: 7086984156991804990, guid: f9f4cb70647a8474998b99428f938536,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2704,6 +2699,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7086984156991804929, guid: f9f4cb70647a8474998b99428f938536,
+        type: 3}
+      propertyPath: m_Name
+      value: PlaceHolderText
       objectReference: {fileID: 0}
     - target: {fileID: 7086984156991804991, guid: f9f4cb70647a8474998b99428f938536,
         type: 3}
@@ -3122,6 +3122,20 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &288351123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288351118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2f186fb70a1b174591388cca87e2540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterLevel: -16
+  isUnderWater: 0
 --- !u!1 &292545314
 GameObject:
   m_ObjectHideFlags: 0
@@ -12531,6 +12545,20 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &1326969474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326969469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2f186fb70a1b174591388cca87e2540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterLevel: -16
+  isUnderWater: 0
 --- !u!1001 &1337555849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12538,11 +12566,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 164657179}
     m_Modifications:
-    - target: {fileID: 7086984156991804929, guid: f9f4cb70647a8474998b99428f938536,
-        type: 3}
-      propertyPath: m_Name
-      value: PlaceHolderText
-      objectReference: {fileID: 0}
     - target: {fileID: 7086984156991804990, guid: f9f4cb70647a8474998b99428f938536,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12597,6 +12620,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7086984156991804929, guid: f9f4cb70647a8474998b99428f938536,
+        type: 3}
+      propertyPath: m_Name
+      value: PlaceHolderText
       objectReference: {fileID: 0}
     - target: {fileID: 7086984156991804991, guid: f9f4cb70647a8474998b99428f938536,
         type: 3}
@@ -12618,11 +12646,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 949718028}
     m_Modifications:
-    - target: {fileID: 7086984156991804929, guid: f9f4cb70647a8474998b99428f938536,
-        type: 3}
-      propertyPath: m_Name
-      value: PlaceHolderText
-      objectReference: {fileID: 0}
     - target: {fileID: 7086984156991804990, guid: f9f4cb70647a8474998b99428f938536,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12677,6 +12700,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7086984156991804929, guid: f9f4cb70647a8474998b99428f938536,
+        type: 3}
+      propertyPath: m_Name
+      value: PlaceHolderText
       objectReference: {fileID: 0}
     - target: {fileID: 7086984156991804991, guid: f9f4cb70647a8474998b99428f938536,
         type: 3}
@@ -18354,6 +18382,20 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &2050194828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050194819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2f186fb70a1b174591388cca87e2540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterLevel: -16
+  isUnderWater: 0
 --- !u!1 &2055341546 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 177ff76019bba0445aca3e56b8e4a76a,
@@ -18397,6 +18439,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 7, y: 7, z: 7}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2055341550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055341546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2f186fb70a1b174591388cca87e2540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterLevel: -16
+  isUnderWater: 0
 --- !u!1 &2067252081
 GameObject:
   m_ObjectHideFlags: 0
